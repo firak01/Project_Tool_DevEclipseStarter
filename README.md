@@ -1,10 +1,14 @@
 # Projekt_Tool_DevEclipseStarter
 
 Batch, die ausgeführt wird, um beim Eclipse Start Umgebungsvariablen zu setzten.
-Auch geheime Keys, die niergendwo eingecheckt gehören.
+Auch geheime Keys, die nirgendwo eingecheckt gehören.
 Entsprechende secret_starterZZZ.bat muss anders verteilt werden.
 
-#############################
+Hierin gibt es ein kleines Java Tool, das die gesetzten Umgebungsvariablen ausliest.
+Damit kann man dann den Erfolg der Batch Datei prüfen.
+
+
+-------------------------------
 Neues Repository anhand dieser Vorlage erstellen.
 Das neue Repository lokal clonen.<br>
 Umbennung des Verzeichnisordners "...TEMPLATE..." kann in der "normalen" GitHub - Seite nicht erfolgen. Git kann auch keine Verzeichnisse umbenennen.

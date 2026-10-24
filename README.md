@@ -1,4 +1,5 @@
-# Projekt_Kernel02_JAZRepositoryDummyTemplate
+# Projekt_Tool_DevEclipseStarter
+
 Neues Repository anhand dieser Vorlage erstellen.
 Das neue Repository lokal clonen.<br>
 Umbennung des Verzeichnisordners "...TEMPLATE..." kann in der "normalen" GitHub - Seite nicht erfolgen. Git kann auch keine Verzeichnisse umbenennen.

@@ -52,6 +52,22 @@ public class DevEclipseStarterMain {
 	//###	fetch = +refs/heads/*:refs/remotes/JAZDummy/*
 	//###
 	//######################################################
+	
+	
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++ INHALT DES secret_starterZZZ.bat
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	//#####################################################
+	//### GITHUB PAT (personal access token)
+	//### für den Zugriff mit jgit über das HTTPS-Protokoll notwendig
+	//#####################################################
+	
+	//######################################################
+	//### API KEYs
+	//### a) Als Python Projekte nutze ich OpenAI
+	//###    
+	//### 
 
 	 /*
 	 * @param args
@@ -79,12 +95,16 @@ public class DevEclipseStarterMain {
 				//Umgebungsvariablen an die Methode des konkreten Projekts durchreichen
 				//Sie sind pro Maschine/Eclipse Instanz ggfs. unterschiedlich
 				//Nicht vergessen: Diese Umgebungsvariablen werden NUR beim Eclipsestart(!) im entsprechenden Starter gesetzt.
-				System.out.println("Vorhandene Umgebungsvariablen, seit Eclipsestart:");
-				System.out.println(System.getenv("MY_TRUSTSTORE"));
-				System.out.println(System.getenv("sPATZZZ"));
-				System.out.println(System.getenv("sRLZZZ"));
-				System.out.println(System.getenv("sRRHZZZ"));		
-				System.out.println(System.getenv("sRRACZZZ"));
+				System.out.println("Vorhandene Umgebungsvariablen, seit Eclipsestart.");				
+				System.out.println("Genutzt in JAZxJgit: ...");
+				System.out.println("Pfad zum Eclipse repo:\t" + System.getenv("sRLZZZ"));
+				System.out.println("Pfad zu cacert:\t\t" + System.getenv("MY_TRUSTSTORE"));
+				System.out.println("Github Domain:\t\t" + System.getenv("sRRHZZZ"));		
+				System.out.println("Github Account:\t\t" + System.getenv("sRRACZZZ"));
+				System.out.println("GitHub PAT:\t\t" + System.getenv("sPATZZZ"));				
+				System.out.println();
+				System.out.println("Genutzt in PYZxOpenAi: ...");
+				System.out.println("API-Key OpenAI:\t\t" + System.getenv("sOPENAIZZZ"));
 				
 				
 			} catch (IllegalStateException e) {

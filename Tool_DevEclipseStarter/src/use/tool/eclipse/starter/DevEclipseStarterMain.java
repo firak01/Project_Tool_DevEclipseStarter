@@ -104,7 +104,9 @@ public class DevEclipseStarterMain {
 				System.out.println("GitHub PAT:\t\t" + System.getenv("sPATZZZ"));				
 				System.out.println();
 				System.out.println("Genutzt in PYZxOpenAi: ...");
+				System.out.println("Pfad zur .env Datei:\t" + System.getenv("sPLENVZZZ"));
 				System.out.println("API-Key OpenAI:\t\t" + System.getenv("sOPENAIZZZ"));
+				System.out.println("API-Key für Client OpenAI():\t" + System.getenv("OPENAI_API_KEY"));
 				
 				
 			} catch (IllegalStateException e) {

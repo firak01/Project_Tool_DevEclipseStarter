@@ -41,6 +41,11 @@ set sRRHZZZ=github.com
 REM Remote Repository: Account
 set sRRACZZZ=firak01
 
+REM Der Pfad zu der von Python verwendbaren .env Datei, die dann wg. "geheimen Daten" auch nicht ins Repository eingecheckt werden darf.
+REM Diese liegt normalerweise unterhalb des Repositories, muss aber nicht
+REM Python Local ENV
+set sPLENVZZZ=C:\1fgl\repo\Eclipse202312\Project_Tool_DevEclipseStarter\Tool_DevEclipseStarter\src\python\start
+
 REM Zusaetzliche "geheime" Umgebungsvariablen setzen. Dies passiert in der Batch, die nie ins gitHub Repository eingecheckt werden darf.
 for /f "delims=" %%i in ('"%~dp0secret_starterZZZ.bat"') do set %%i
 

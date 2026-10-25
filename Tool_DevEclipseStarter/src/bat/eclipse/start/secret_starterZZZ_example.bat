@@ -26,6 +26,17 @@ REM ### Wenn man es doch versucht, hat man das Problem den abgelehnten Commit wi
 @echo sPATZZZ=<geheimer PAT - nicht in github eincheckbar - commit schlägt fehl>
 @echo sRRACZZZ=<Benutzername>
 
+
+REM #############################################################
+REM ### API KEY von OpenAi
+@echo sOPENAIZZZ=<geheimer OPENAI_API_KEY - nicht in github einchecken>
+
+REM ### Der OpenAi() Client in Python erwartet genau diesen Namen als Umgebungsvariable: OPENAI_API_KEY
+@echo OPENAI_API_KEY=<geheimer OPENAI_API_KEY - nicht in github einchecken>
+
+REM ### Für Python - Projekte selbst gibt es noch die Möglichkeit diese geheimen Daten in einer env-Datei abzulegen und die dann zu laden
+REM ### siehe dazu mehr in der Datei .env.example im python - Zweig
+
 @echo off
 
 @echo BEENDE secret_starterZZZ_example.bat >&2

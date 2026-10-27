@@ -9,7 +9,7 @@ Damit kann man dann den Erfolg der Batch Datei prüfen.
 
 
 -------------------------------
-Neues Repository anhand dieser Vorlage erstellen.
+Neues Repository anhand einer Vorlage erstellt. (JAZ...DummyTemplate)
 Das neue Repository lokal clonen.<br>
 Umbennung des Verzeichnisordners "...TEMPLATE..." kann in der "normalen" GitHub - Seite nicht erfolgen. Git kann auch keine Verzeichnisse umbenennen.
 Aber es gibt ein Plugin, welches man duch Drücken des Punkts "." öffnen kann. 

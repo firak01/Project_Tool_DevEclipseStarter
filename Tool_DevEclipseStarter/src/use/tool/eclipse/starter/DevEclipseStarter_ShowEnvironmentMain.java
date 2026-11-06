@@ -12,7 +12,7 @@ import java.util.HashMap;
  * @author Fritz Lindhauer
  *
  */
-public class DevEclipseStarterMain {
+public class DevEclipseStarter_ShowEnvironmentMain {
 
 	//#######################################
 	//### Eintragen von github.com in die C:\Users\<User>\.ssh\known_hosts Datei
@@ -107,8 +107,14 @@ public class DevEclipseStarterMain {
 				System.out.println("Pfad zur .env Datei:\t" + System.getenv("sPLENVZZZ"));
 				System.out.println("API-Key OpenAI:\t\t" + System.getenv("sOPENAIZZZ"));
 				System.out.println("API-Key OpenAI(), Python Default Client:\t" + System.getenv("OPENAI_API_KEY"));
-				
-				
+				System.out.println();
+				System.out.println("Erstellt für den Eclipse Start per Kommandozeile: ...");
+				System.out.println("Pfad zur Eclipse Version:\t" +System.getenv("MY_ECLIPSE"));
+				System.out.println("Pfad zur Java Version:\t\t" +System.getenv("MY_JAVA"));
+				System.out.println("Pfad zum Eclipse Workspace:\t" + System.getenv("MY_DATA"));
+				System.out.println("\t(Merke: Wichtig für Jython: ...");
+				System.out.println("\tAus Jython kann man nicht so leicht auch den Workspace ermitteln wie aus Java\n\tund wir brauchen das schon um FileEasyZZZ etc. überhaupt importieren zu können)");
+								
 			} catch (IllegalStateException e) {
 				e.printStackTrace();		
 			}
